@@ -13,7 +13,7 @@ async function getContractInstance () {
 
 async function getAccount() {
     const web3 = new Web3(window.ethereum);
-    const accounts = await web3.eth.getAccounts()
+    const accounts = await web3.eth.requestAccounts()
     return accounts;
 }
 
