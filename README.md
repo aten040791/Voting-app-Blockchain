@@ -23,7 +23,10 @@ Install these prerequisites to follow along with the tutorial. See free video tu
 
 ## Step 2. Install dependencies
 ```
-$ cd election
+$ cd election-backend
+$ npm install
+
+$ cd election-frontend
 $ npm install
 ```
 ## Step 3. Start Ganache
